@@ -1,0 +1,20 @@
+server:
+  port: 80
+
+
+logging:
+  file: archive.log
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: root
+    url: jdbc:mysql://localhost/demo?characterEncoding=utf-8&useSSL=false
+  jpa:
+    show-sql: true
+  thymeleaf:
+    cache: false
+  redis:
+    host: 127.0.0.1
+    port: 6379
