@@ -1,6 +1,6 @@
 package com.luqinghe.dao;
 
-import com.luqinghe.DO.Archive;
+import com.luqinghe.vo.Archive;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.slf4j.Logger;
@@ -11,10 +11,10 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 import java.util.List;
 
-import static org.junit.Assert.*;
-
 /**
- * Created by qinghe on 2017/12/17.
+ * Created by qinghe
+ * @author qinghe
+ * @date 2017-12-28
  */
 @RunWith(SpringRunner.class)
 @SpringBootTest

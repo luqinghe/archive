@@ -1,7 +1,7 @@
 package com.luqinghe.service.impl;
 
 import com.alibaba.fastjson.JSON;
-import com.luqinghe.DO.Archive;
+import com.luqinghe.vo.Archive;
 import com.luqinghe.dao.ArchiveDao;
 import com.luqinghe.service.ArchiveService;
 import org.slf4j.Logger;
@@ -15,6 +15,8 @@ import java.util.List;
 
 /**
  * Created by qinghe on 2017/12/17.
+ * @author qinghe
+ * @date 2017-12-28
  */
 @Service
 public class ArchiveServiceImpl implements ArchiveService {

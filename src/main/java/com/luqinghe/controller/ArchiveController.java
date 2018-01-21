@@ -1,6 +1,6 @@
 package com.luqinghe.controller;
 
-import com.luqinghe.DO.Archive;
+import com.luqinghe.vo.Archive;
 import com.luqinghe.service.ArchiveService;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
@@ -15,6 +15,8 @@ import java.util.List;
 
 /**
  * Created by qinghe on 2017/12/17.
+ * @author qinghe
+ * @date 2017-12-28
  */
 @Controller
 public class ArchiveController {

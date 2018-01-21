@@ -1,4 +1,4 @@
-package com.luqinghe.DO;
+package com.luqinghe.vo;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -7,6 +7,8 @@ import java.io.Serializable;
 
 /**
  * Created by qinghe on 2017/12/17.
+ * @author qinghe
+ * @date 2017-12-28
  */
 @Entity
 public class Archive implements Serializable {

@@ -1,6 +1,6 @@
 package com.luqinghe.service.impl;
 
-import com.luqinghe.DO.Archive;
+import com.luqinghe.vo.Archive;
 import com.luqinghe.service.ArchiveService;
 import org.junit.Test;
 import org.junit.runner.RunWith;

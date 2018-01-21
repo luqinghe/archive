@@ -3,7 +3,7 @@ server:
 
 
 logging:
-  file: archive.log
+  file: d:/log/archive.log
 
 spring:
   datasource:
@@ -16,5 +16,6 @@ spring:
   thymeleaf:
     cache: false
   redis:
-    host: 127.0.0.1
+    host: luqinghe.com
     port: 6379
+    password:
